@@ -1,102 +1,170 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Modern Dashboard UI
 
-Welcome USER_NAME,
+A modern, responsive dashboard built with HTML, CSS, and JavaScript featuring a clean design with Work Sans typography and a professional color scheme.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+## 🎨 Design Specifications
 
-## Gitpod Reminders
+### Color Palette
+- **Primary Color**: `#002A7B` (Deep Blue)
+- **Secondary Color**: `#0056D2` (Blue)
+- **Accent Color**: `#FF7300` (Orange)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Typography
+- **Font Family**: Work Sans (300, 400, 500, 600, 700 weights)
+- Imported from Google Fonts for optimal performance and consistency
 
-`python3 -m http.server`
+## 🚀 Features
 
-A blue button should appear to click: _Make Public_,
+### 📊 Dashboard Components
+- **Statistics Cards**: Key metrics with icons and trend indicators
+- **Interactive Charts**: Revenue overview with Chart.js integration
+- **Product Analytics**: Top products with animated progress bars
+- **Activity Feed**: Recent user activities and system events
+- **Responsive Sidebar**: Collapsible navigation menu
 
-Another blue button should appear to click: _Open Browser_.
+### 🎯 Interactive Elements
+- **Smooth Animations**: CSS transitions and JavaScript-powered animations
+- **Hover Effects**: Enhanced user feedback on interactive elements
+- **Chart Controls**: Toggle between different time periods
+- **Search Functionality**: Real-time search with visual feedback
+- **Mobile Menu**: Touch-friendly navigation for mobile devices
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### 📱 Responsive Design
+- **Mobile-First Approach**: Optimized for all screen sizes
+- **Tablet Support**: Adaptive layout for medium screens
+- **Desktop Enhancement**: Full-featured experience on large screens
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## 🏗️ File Structure
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+dashboard/
+├── index.html          # Main HTML structure
+├── styles.css          # Complete CSS styling
+├── script.js           # JavaScript functionality
+└── README.md           # Documentation
 ```
 
-**Anything more?**
+## 🔧 Getting Started
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection (for Google Fonts and Chart.js CDN)
+
+### Running the Dashboard
+
+1. **Clone or download** the files to your local machine
+2. **Open** `index.html` in your web browser
+3. **Enjoy** the fully functional dashboard!
+
+### Alternative: Local Server
+For the best experience, serve the files through a local server:
+
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js (with http-server)
+npx http-server
+
+# Using PHP
+php -S localhost:8000
+```
+
+Then visit `http://localhost:8000` in your browser.
+
+## 🎨 Customization
+
+### Colors
+To modify the color scheme, update the CSS variables in `styles.css`:
+
+```css
+:root {
+    --primary-color: #002A7B;    /* Your primary color */
+    --secondary-color: #0056D2;  /* Your secondary color */
+    --accent-color: #FF7300;     /* Your accent color */
+}
+```
+
+### Typography
+To change the font, update the Google Fonts import in `index.html`:
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Your+Font:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+```
+
+And update the CSS font-family:
+
+```css
+body {
+    font-family: 'Your Font', sans-serif;
+}
+```
+
+## 📈 Chart Configuration
+
+The dashboard uses Chart.js for data visualization. To modify chart data:
+
+1. Open `script.js`
+2. Find the `initializeChart()` function
+3. Update the `data` object with your values
+
+```javascript
+data: {
+    labels: ['Jan', 'Feb', 'Mar', ...], // Your labels
+    datasets: [{
+        data: [12000, 15000, 10000, ...], // Your data
+        // ... other configuration
+    }]
+}
+```
+
+## 🌟 Key Features Explained
+
+### Color Usage
+- **Primary (#002A7B)**: Main navigation, primary buttons, and key headers
+- **Secondary (#0056D2)**: Links, secondary buttons, and chart elements
+- **Accent (#FF7300)**: Highlights, progress indicators, and call-to-action elements
+
+### Responsive Breakpoints
+- **Mobile**: < 768px (single column layout, mobile menu)
+- **Tablet**: 768px - 1024px (adjusted grid layouts)
+- **Desktop**: > 1024px (full multi-column layout)
+
+### Accessibility Features
+- Semantic HTML structure
+- Keyboard navigation support
+- Focus indicators
+- Color contrast compliance
+- Screen reader friendly
+
+## 🔄 Browser Support
+
+- ✅ Chrome 90+
+- ✅ Firefox 88+
+- ✅ Safari 14+
+- ✅ Edge 90+
+
+## 📝 License
+
+This dashboard is provided as-is for educational and commercial use. Feel free to modify and customize according to your needs.
+
+## 🤝 Contributing
+
+To improve this dashboard:
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## 📞 Support
+
+For questions or issues:
+- Check the browser console for any JavaScript errors
+- Ensure all CDN resources are loading properly
+- Verify CSS custom properties are supported in your browser
 
 ---
 
-Happy coding!
+**Built with ❤️ using Work Sans typography and a carefully crafted color palette for optimal user experience.**
